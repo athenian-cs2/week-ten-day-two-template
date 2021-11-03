@@ -1,10 +1,10 @@
-# Week Ten Day One: Inheritance and Classes with Arrays
+# Week Ten Day Two: Classes with Arrays
 
 In this assignment, you'll be implementing various classes. 
 
-For a warm-up today, you will first add code to [Car.java](src/main/java/Car.java) and [Bicycle.java](src/main/java/Bicycle.java). Then, you will add some code to [Client.java](src/main/java/Client.java) that carries out some very very basic testing code.
+We will write [NumberArray.java](src/main/java/NumberArray.java) toghter. 
 
-Later today, you'll write some code in [NumberSequence.java](src/main/java/NumberSequence.java). 
+You will add code to [NumberSequence.java](src/main/java/NumberSequence.java). You can test that your code is working by running the code in [Client.java](src/main/java/Client.java).
 
 ## Run your code with:
 The easiest way to run your code is to press the play button in [Client.java](src/main/java/Client.java).

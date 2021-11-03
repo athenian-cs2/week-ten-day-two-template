@@ -1,5 +1,5 @@
-import java.util.Arrays;
-
+// A NumberArray is an array of some length
+// where every element is the same number
 public class NumberArray {
     private int[] arr;
 
@@ -19,13 +19,32 @@ public class NumberArray {
         return this.arr[index];
     }
 
-    // Sets the value at the given index of our array
-    public void setAtIndex(int index, int newValue) {
-        this.arr[index] = newValue;
+    // Adds up all the values in our array
+    public int sum() {
+        int x = 0;
+        for (int i = 0; i < this.arr.length; i++) {
+            x += this.arr[i];
+        }
+        return x;
     }
 
-    // Calls Arrays.toString for the toString method
+    // Increments all values in the array
+    public void increment() {
+        for (int i = 0; i < this.arr.length; i++) {
+            this.arr[i] += 1;
+        }
+    }
+
+    // Returns a nice String for our NumberArray
     public String toString() {
-        return "NumberArray contains: " + Arrays.toString(this.arr);
+        String x = "[";
+        for (int i = 0; i < this.arr.length; i++) {
+            x += arr[i];
+            if (i < this.arr.length-1) {
+                x += ", ";
+            }
+        }
+        x += "]";
+        return x;
     }
 }
